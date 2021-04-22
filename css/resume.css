@@ -1,0 +1,478 @@
+.dashboard-sidebar{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.dropdown-nav__link--active{
+    font-weight: 500;
+    background: #EB7300;
+}
+
+.dashboard-nav li ul li a.dropdown-nav__link--active{
+    color: #fff;
+}
+
+.dashboard-content{
+    padding: 0px;
+    padding-left: 12px;
+}
+
+.dashboard__banner{
+    margin-top: 20px;
+}
+
+.dashboard-wrapper {
+    padding-top: 26px;
+}
+
+.navigation-back:before{
+    background: none;
+    margin: 0;
+    width: 0;
+    height: 0;
+}
+
+.dashboard-wrapper__title{
+    letter-spacing: 1px;
+}
+
+.dashboard-wrapper p{
+    padding: 5px 0;
+    font-size:18px;
+}
+
+#pagination{
+    padding: 35px 0 62px 0;
+    text-align: right;
+    width: 100%;
+}
+
+.pagination-list a{
+    background-color: #EDEDED;
+}
+
+.pagination-list a.active{
+    background-color: #EB7300;
+}
+
+.pagination-list a:hover, .pagination-list a.active {
+    background: #EB7300;
+}
+
+.dashboard-wrapper__table-title{
+    text-transform: uppercase;
+    background: #EB7300;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+
+.resume__table{
+    width:100%;
+    margin-top: 5px;
+}
+
+.resume__table thead{
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 10px rgb(0 0 0 / 6%);
+            box-shadow: 4px 4px 10px rgb(0 0 0 / 6%);
+}
+
+.resume__table-title th{
+    padding: 17px 0;
+    font-size: 16px;
+    color: #3D3D3D;
+    font-weight: bold;
+    text-align: left;
+}
+
+.resume__table-title th:first-child{
+    padding-left: 20px;
+}
+
+.resume__table tbody{
+    border-radius: 0 0 5px 5px;
+    box-shadow:0px -3px 6px 2px rgba(0,0,0,0.06)inset;
+    -webkit-box-shadow:0px -3px 6px 2px rgba(0,0,0,0.06)inset;
+    -moz-box-shadow:0px -3px 6px 2px rgba(0,0,0,0.06)inset;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resume__table-str td{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.resume__table-str:first-child td{
+    padding: 28px 20px 10px 20px;
+}
+
+.resume__table-str:last-child td{
+    padding: 10px 20px 50px 20px;
+}
+
+.resume__table-td--name{
+    width: 12%;
+}
+
+.resume__table-td--company{
+    width: 19%;
+}
+.resume__table-td--job{
+    width: 20%;
+    color: #007AFF;
+    cursor: pointer;
+}
+.resume__table-td--meet{
+    color: #007AFF;
+    cursor: pointer;
+    width: 24%;
+}
+.resume__table-td--com{
+    color: #007AFF;
+    cursor: pointer;
+    width: 17%;
+}
+
+.resume__table-td--circles{
+    text-align: center;
+    position: relative;
+}
+
+.resume__table-td--circles svg{ 
+    cursor: pointer;
+}
+
+.resume__table-str:hover{
+    background-color: #F6F9FF;
+}
+
+.popup{
+    background-color: #fff;
+    position: fixed;
+    top: 15%;
+    z-index:  100;
+    left: 50%;
+    padding: 40px 30px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
+    width: 858px;
+    margin-left: -429px;
+    overflow-y: auto;
+}
+
+.popup__wrp{
+    position: relative;
+    margin-top: 12px;
+}
+
+.popup__closeX{
+    position: absolute;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/x.png);
+    background-repeat: no-repeat;
+    top: -42px;
+    right: 17px;
+}
+
+.popup__background{
+    width: 100vw;
+    height: 100vh;
+    background-color: #3d3d3d;
+    opacity: 0.3;
+    z-index:  99;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.popup__table{
+    width: 100%;
+}
+
+.popup__title{
+    padding-left: 22px;
+}
+
+.popup__table-title{
+    border-bottom: 1px solid #EB7300;
+}
+
+.popup__table-title th{
+    color: #EB7300;
+    vertical-align: inherit;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    text-align: left;
+    font-size: 18px;
+    vertical-align: top;
+    font-weight: 500;
+}
+
+.popup__table-str--job td{
+    padding: 15px 6px 15px 22px;
+}
+
+.popup__table-str--job:first-child td{
+    padding: 20px 12px 10px 22px;
+}
+
+
+
+.popup__table-td--date-job{
+    width: 19%;
+}
+
+.popup__table-td--com-job{
+    width: 34%;
+}
+
+.popup__table-td--sent-job{
+    width: 27%;
+}
+
+.popup__table-td--response-job{
+    width: 20%;
+    font-size: 14px;
+    padding: 15px 18px 0 0;
+}
+
+.popup__table-td--response-job span{
+    cursor: pointer;
+    color: #007AFF;
+}
+
+.popup__table-td--info{
+    padding: 26px 22px;
+    position: relative;
+}
+
+.popup__table-td--info:before{
+    position: absolute;
+    content: "";
+    width: 94%;
+    height: 1px;
+    background: #C4C4C4;
+    top: 15px;
+    left: 3%;
+}
+
+.bg__str{
+    background:#F6F9FF;
+}
+
+.circles__edit{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 142px;
+    height: 104px;
+    text-align: left;
+    display: block;
+    z-index: 10;
+    padding: 14px 26px;
+    color: #A5A5A5;
+    line-height: 150%;
+    font-family: 'Poppins', sans-serif;
+    -webkit-box-shadow: 4px 4px 10px rgb(0 0 0 / 6%);
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 6%);
+    top: -47px;
+    left: -130px;
+    font-size: 14px;
+}
+
+.circles__edit li{
+    padding: 3px;
+    cursor: pointer;
+}
+
+.popup__table-td--date-meet{
+    width: 40%;
+}
+
+.popup__table-td--com-meet{
+    width: 37%;
+    color: #007AFF;
+    cursor: pointer;
+}
+
+.popup__table-str--meet td{
+    padding: 9px 6px 10px 22px;
+}
+
+.popup__table-str--meet:first-child td{
+    padding: 20px 12px 10px 22px;
+}
+
+.popup__job-description{
+    padding: 19px 0 0 21px;
+    color: #c4c4c4;
+}
+
+.popup__job-txt{
+    margin: 20px;
+    margin-top: 0;
+    background: #F8F8F8;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    padding-bottom: 40px;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+
+@media (max-width: 857px){
+    .popup{
+        max-width: 100%;
+        background-color: #fff;
+        position: fixed;
+        top: 15%;
+        z-index:  100;
+        left: 0;
+        padding: 20px 15px;
+        margin-left:0;
+    }
+}
+
+@media (max-width: 767px){
+    .dashboard-content{
+        padding: 0 5px;
+    }
+
+    .resume__table-title th{
+        font-size: 12px;
+        text-align: center;
+        padding: 10px 3px;
+    }
+
+    .resume__table-str td{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .resume__table-title th:first-child{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .resume__table-str:first-child td{
+        padding: 10px;
+    }
+
+    .resume__table-str:last-child td{
+        padding: 10px;
+    }
+
+    .resume__table-str td{
+        padding: 10px;
+    }
+
+    .resume__table-td--name{
+        width: 10%;
+    }
+
+    .resume__table-td--company{
+        width: 14%;
+    }
+
+    .resume__table-td--job{
+        width: 22%;
+    }
+
+    .popup__table-title th{
+        font-size: 14px;
+    }
+
+    .popup__table-str--job td{
+        font-size: 14px;
+    }
+
+    .popup__table-td--date-job{
+        width: 17%;
+    }
+
+    .popup__table-td--com-job{
+        width: 25%;
+    }
+
+    .popup__table-td--sent-job{
+        width: 25%;
+    }
+
+    .popup__table-td--response-job{
+        width: 33%;
+    }
+
+    .popup__table-td--info{
+        font-size: 14px;
+    }
+
+    .popup__table-str--meet td{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 560px){
+    .popup__table-title th{
+        padding-bottom: 2px;
+        padding-left: 10px;
+    }
+
+    .popup__table-str--job:first-child td{
+        padding: 10px 5px 10px 10px;
+        text-align: center;
+    }
+
+    .popup__table-str--job td{
+        padding: 10px 5px 10px 10px;
+        text-align: center;
+    }
+
+    .popup__table-td--date-meet{
+        width: 30%;
+    }
+
+    .popup__table-td--com-meet{
+        width: 32%;
+    }
+
+    .popup__table-str--meet:first-child td {
+        padding: 10px 5px 10px 10px;
+    }
+
+    .popup__table-str--meet td {
+        padding: 10px 5px 10px 10px;
+    }
+
+    .circles__edit{
+        left: -140px;
+    }
+
+}
+
+@media (max-width: 450px){
+    .resume__table{
+        overflow-x: auto;
+        display: block;
+    }
+
+    .resume__table,
+    .popup__table{
+        overflow-x: auto;
+        display: block;
+    }
+
+    .popup__table-str--meet td{
+        width: 33%;
+    }
+}
