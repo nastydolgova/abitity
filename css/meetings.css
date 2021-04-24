@@ -1,3 +1,10 @@
+*,
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #C4C4C4 #F8F8F8;
+}
+
+
 .dashboard-sidebar{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
