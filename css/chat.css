@@ -49,6 +49,7 @@ html {
 .dashboard-content{
     padding: 0px;
     padding-left: 12px;
+    margin-bottom: 30px;
 }
 
 .dashboard__banner{
@@ -1340,4 +1341,8 @@ padding-top: 15px;
         grid-row: 7/8;
     }
 
+}
+
+.chat-content__ava-message{
+    cursor: pointer;
 }

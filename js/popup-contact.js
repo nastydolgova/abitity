@@ -1,14 +1,4 @@
 $(document).ready(function() {
-    $('.popup-reguser__button-add').click(function() {
-        $('.add-to-call').toggleClass("hidden");
-    });
-    $('.add-to-call__item').click(function() {
-        $('.add-to-call__item').css("background","#fff");
-        $(this).css("background","#F7FEFA")
-    });
-    $('.add-to-call__button').click(function() {
-        $('.add-to-call').addClass("hidden");
-    });
     $('.btn-attach').click(function(e) {
         e.preventDefault();
         $('.select-card').toggleClass("hidden");
@@ -49,4 +39,31 @@ $(document).ready(function() {
     $('.popup__chat-invite').click(function() {
         $('.popup__meetings-platform').toggleClass("hidden");
     });
+    $('.popup-contact .popup__closeX').click(function(e) {
+        e.preventDefault();
+        $('.popup-contact').addClass("hidden");
+        $('.popup__meetings-platform').addClass("hidden");
+        $('.select-card').addClass("hidden");
+    });
+    $('.for-step-1').click(function() {
+        $('.popup-contact').removeClass(" step-1 step-2 step-3 step-4");
+        $('.popup-contact').addClass("step-1");
+        $('.popup-contact').removeClass("hidden");
+    });
+    $('.for-step-2').click(function() {
+        $('.popup-contact').removeClass(" step-1 step-2 step-3 step-4");
+        $('.popup-contact').addClass("step-2");
+        $('.popup-contact').removeClass("hidden");
+    });
+    $('.for-step-3').click(function() {
+        $('.popup-contact').removeClass("step-1 step-2 step-3 step-4");
+        $('.popup-contact').addClass("step-3");
+        $('.popup-contact').removeClass("hidden");
+    });
+    $('.for-step-4').click(function() {
+        $('.popup-contact').removeClass("step-1 step-2 step-3 step-4");
+        $('.popup-contact').addClass("step-4");
+        $('.popup-contact').removeClass("hidden");
+    });
+
 })

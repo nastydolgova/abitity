@@ -1,0 +1,1418 @@
+*,
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #C4C4C4 #F8F8F8;
+}
+
+body{
+    position: relative;
+}
+
+label .popup-reguser__load-file{
+    display: block;
+}
+
+.popup-contact{
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid #C4C4C4;
+    position: absolute;
+    height: 759px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    right: 0;
+    bottom: 69px;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+.popup-contact .popup__chat-info{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 18px 0 5px 22px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.popup-contact .popup__chat-post{
+    font-size: 24px;
+    color: #E94E1B;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.popup-contact .popup__chat-call{
+    margin-left: 18px;
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #59BC5A;
+}
+
+.popup-contact .popup__chat-invite{
+    width: 128px;
+    height: 22px;
+    background-color: #59BC5A;
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 8px;
+    border-radius: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.popup__chat-book{
+    display: none;
+}
+
+.step-1 .popup__chat-invite{
+    display: none;
+}
+
+.step-1 .popup__chat-book{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+
+.popup__chat-book{
+    color: #59BC5A;
+    border-radius: 2px;
+    border: 1px solid #59BC5A;
+    font-size: 10px;
+    width: 136px;
+    height: 21px;
+    margin-left: 8px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fff;
+}
+
+.popup__chat-book span{
+    margin-left: 5px;
+}
+
+.popup-contact .popup__chat-invite span{
+    margin-left: 5px;
+}
+
+.popup-contact .direct__item-logo{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    display: block;
+    margin-left: 0;
+}
+
+.popup-contact .direct__logo-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    max-height: 65px;
+    max-width: 65px;
+    border: 2px solid #E94E1B;
+    border-radius:50%;
+}
+
+.popup-contact .direct__online:after{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    bottom: 3px;
+    right: 3px;
+    background-color: #59BC5A;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.popup-contact .direct__item-info{
+    margin-left: 20px;
+}
+
+.popup-contact .direct__item-name{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.popup-contact .direct__item-post{
+    font-size: 12px;
+    padding-top: 5px;
+    display: inline-block;
+    width: 200px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.popup-contact .popup__closeX{
+    position: absolute;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/x.png);
+    background-repeat: no-repeat;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.popup-contact .direct__item{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 11px 22px 60px 22px;
+    background-color: #F8F8F8;
+}
+
+
+.popup-contact .popup-reguser__send-info{
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    margin: 44px 63px 11px 19px;
+    margin-top: auto;
+}
+
+.popup-contact .popup-reguser__send-info span{
+    font-size: 8px;
+}
+
+.popup-contact .popup-reguser__form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.popup-contact .input__card-button {
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: -35px;
+    width: 30px;
+    height: 20px;
+    border: none;
+}
+
+.popup-contact .popup-reguser__form-buttons{
+    margin-top: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.popup-contact .popup-reguser__form-button{
+    max-width: 148px;
+    width: 48%;
+    height: 47px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #EB7300;
+    color: #fff;
+}
+
+.popup-contact .popup-reguser__form-button.btn-attach{
+    border: 1px solid #EB7300;
+    background-color: #fff;
+    color: #EB7300;
+}
+
+.popup__closeX{
+    position: absolute;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/x.png);
+    background-repeat: no-repeat;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.select-card{
+    position: absolute;
+    width: 310px;
+    height: 312px;
+    background-color: #fff;
+    bottom: 69px;
+    right: 349px;
+    -webkit-box-shadow: 3px 9px 8px -5px rgba(34, 60, 80, 0.54);
+    box-shadow: 3px 9px 8px -5px rgba(34, 60, 80, 0.54);
+    border: 1px solid #C4C4C4;
+    padding: 17px 0 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.select-card__link{
+    width: 46px;
+    height: 46px;
+}
+
+.select-card__img{
+    width: 46px;
+    height: 46px;
+    display: block;
+}
+
+.select-card__check{
+    border:1px solid #C4C4C4;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.select-card__item{
+    position: relative;
+}
+
+.person-cart{
+    position: absolute;
+    width: 310px;
+    height: 168px;
+    background: #fff;
+    right: 320px;
+    display: none;
+    bottom: 0;
+}
+
+.select-card__item:hover .person-cart{
+    display: block;
+}
+
+.select-card__title{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 12px;
+}
+
+.select-card__item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 2px 12px;
+}
+
+.select-card__item:hover{
+    background-color: #F7FEFA;
+}
+
+.select-card__wrp{
+    margin-top: 8px;
+}
+
+.select-card__item-info{   
+    padding-top: 10px;
+}
+
+.select-card__item-name{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 0.5;
+}
+
+.select-card__item-post{
+    font-size: 12px;
+    color: #076633;
+}
+
+.select-card__check{
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.select-card__button{
+    height: 47px;
+    background-color: #EB7300;
+    color: #fff;
+    border-radius: 5px;
+    width: 281px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 10px;
+}
+
+.select-card__check-svg{
+    opacity: 0;
+}
+
+.opa{
+    opacity: 1;
+}
+
+.person-cart__wrp{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-bottom: 3px;
+    padding: 15px 19px 28px 27px;
+}
+
+.select-card__link{
+    width: 55px;
+    height: 55px;
+}
+
+.person-cart__img{
+    width: 55px;
+    height: 55px;
+    display: block;
+}
+
+.person-cart__item-info{
+    padding-left: 8px;   
+    -ms-flex-item-align: center;   
+        -ms-grid-row-align: center;   
+        align-self: center;   
+}
+
+.person-cart__item-name{
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.person-cart__item-post{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.person-cart__check{
+    margin-left: auto;
+    border:1px solid #C4C4C4;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6px;
+}
+
+.person-cart__list{
+    display: block;
+    margin: 0 30px;
+}
+
+.person-cart__list-item td{
+    font-size: 12px;
+}
+
+.person-cart__list-item td:first-child{
+    width: 48px;
+}
+
+.popup__meetings-platform{
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    width: 858px;
+    z-index: 100;
+    left: 50%;
+    margin-left: -428px;
+    border: 1px solid #C4C4C4;
+    -webkit-box-shadow: 3px 9px 8px -5px rgba(34, 60, 80, 0.54);
+    box-shadow: 3px 9px 8px -5px rgba(34, 60, 80, 0.54);
+    margin-bottom: 50px;
+}
+
+.popup__meetings-platform .tabs__caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.popup__meetings-platform .tabs__caption li {
+    color: #C4C4C4;
+    margin-top: 5px;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 1px solid #C4C4C4;
+    padding: 19px 0;
+    margin-top: 17px;
+}
+
+.popup__meetings-platform .tabs__caption li:first-child{
+    border-right: none;
+}
+
+.popup__meetings-platform .tabs__caption li:nth-child(2){
+    border-left: none;
+}
+
+.popup__meetings-platform .tabs__caption .active {
+    color:  #EB7300;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 11px 6px rgba(34, 60, 80, 0.07);
+    box-shadow: 0px 2px 11px 6px rgba(34, 60, 80, 0.07);
+}
+
+.popup__meetings-platform .tabs__content {
+    display: none;
+}
+
+.popup__meetings-platform .tabs__content.active {
+    display: block;
+}
+
+.popup__meetings-platform .tabs__caption li:not(.active) {
+    cursor: pointer;
+}
+
+.popup__meetings-platform input,
+.popup__meetings-platform textarea{
+    border: 1px solid #C4C4C4;
+}
+
+.popup__meetings-platform{
+    padding: 40px 42px 55px 42px;
+}
+
+.platform__title{
+    color: #3D3D3D;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+.platform__p{
+    font-size: 18px;
+    padding: 10px 0;
+    padding-left: 8px;
+    border-bottom: 1px solid #EB7300;
+}
+
+.meeting-platform__wrp{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-orient: horizontal; 
+    -webkit-box-direction: normal; 
+        -ms-flex-direction: row; 
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.meeting-platform__item{
+    width: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 21px;
+    position: relative;
+}
+
+.meeting-platform__label{
+    color: #C4C4C4;
+    font-size: 16px;
+}
+
+.meeting-platform__input{
+    padding: 14.5px 20px;
+}
+
+.platform__attendee-info{
+    margin-top: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.platform__attendee-title{
+    color: #383838;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.platform__clear-attend{
+    width: 158px;
+    height: 21px;
+    background-color: #E94E1B;
+    color: #fff;
+    font-size: 10px;
+    margin-right:  32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.platform__clear-attend span{
+    padding-left: 3px;
+}
+
+.platform__attendee-wrp{
+    margin-top: 11px;
+    height: 244px;
+    -webkit-box-shadow: 0px 2px 11px 6px rgba(34, 60, 80, 0.07) inset;
+    box-shadow: 0px 2px 11px 6px rgba(34, 60, 80, 0.07) inset;
+    padding: 27px 37px 0 20px;
+}
+
+.platform-card__item{
+    padding: 7px 13px;
+}
+
+.platform-card__link{
+    width: 65px;
+    height: 65px;
+}
+
+.platform-card__img{
+    width: 65px;
+    height: 65px;
+}
+
+.platform-card__item-info{
+    padding-left: 10px;
+    padding-top: 17px;
+}
+
+.platform-card__item-name{
+    font-size: 16px;
+    font-weight: bold;
+    color: #3D3D3D;
+    line-height: 1;
+}
+
+.platform-card__item-post{
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.platform-card__check{
+    margin-right: 12px;
+    margin-top: 10px;
+    -ms-flex-item-align: inherit;
+        -ms-grid-row-align: inherit;
+        align-self: inherit;
+}
+
+.meeting-platform__item--textarea{
+    width: 100%;
+}
+
+.meeting-platform__textarea{
+    height: 168px;
+    padding: 20px;
+}
+
+.meeting-platform__input--date{
+    padding: 13.5px 20px;
+}
+
+.platform__buttons{
+    margin-top: 25px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.platform__button{
+    width: 48%;
+    height: 47px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.platform__generate{
+    color: #EB7300;
+    border: 1px solid #EB7300;
+    background-color: #fff;
+}
+
+.platform__save{
+    background-color: #EB7300;
+    color: #fff;
+}
+
+.platform__generate-link{
+    width: 100%;
+    position: relative;
+}
+
+#code{
+    margin-right: 28px;
+    width: calc(100% - 28px);
+    margin-top: 16px;
+    height: 47px;
+    padding: 10px 20px;
+}
+
+.meeting-platform__generate-link-button{
+    background-color: transparent;
+    position: absolute;
+    top: 26px;
+}
+
+.meeting-platform__button-send{
+    right: 48px;
+}
+
+.meeting-platform__button-copy{
+    right: 85px;
+}
+
+.platform__generate--disable{
+    background-color: #8E8E8E;
+    color: #FFFFFF;
+    border: none;
+}
+
+.meeting-platform__item--100{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.platform__attendee-info--add{
+    margin-top: 25px;
+}
+
+.platform__attendee-info--add .platform__clear-attend{
+    margin-right: 0;
+}
+
+.platform__attendee-wrp--add::-webkit-scrollbar-track {
+    background-color:#F8F8F8;
+}
+    
+.platform__attendee-wrp--add::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-color:#C4C4C4;
+    -webkit-box-shadow:0px 1px 1px #fff inset;
+            box-shadow:0px 1px 1px #fff inset;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+.platform__attendee-wrp--add::-webkit-resizer{
+    background-repeat:no-repeat;
+    width:7px;
+    height:0px
+}
+    
+.platform__attendee-wrp--add::-webkit-scrollbar{
+    width: 6px;
+}
+
+.platform__attendee-wrp--add .platform-card__item{
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.platform__attendee-wrp--add .platform-card__item:hover{
+    background-color: #F7FEFA;
+}
+
+.platform-card__item-invite{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 100px;
+}
+
+.platform__title-new-person{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 45px;
+}
+
+.platform__new-person-wrp{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.platform__new-person-wrp span{
+    font-size: 14px;
+    color: #8E8E8E;
+    margin-top: 13px;
+}
+
+.platform__attendee-wrp{
+    width: 100%;
+    height: 145px;
+}
+
+.platform__title .popup__closeX{
+    top: 46px;
+    right: 40px;
+}
+
+.platform__attendee-wrp--add{
+    overflow-y: auto;
+    height: 244px;
+}
+
+.contact__instraction{
+    display: none;
+}
+
+.step-1 .contact__instraction,
+.step-2 .contact__instraction{
+    display: block;
+}
+
+.step-2 .popup__chat-invite{
+    display: none;
+}
+
+.step-2 .popup__chat-book{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.step-2 .direct__item{
+    padding: 13px 22px 0 50px;
+}
+
+.step-2 .direct__item-info{
+    padding: 0 27px 15px 41px;
+    margin-left: 0;
+}
+
+.step-2 .direct__item-post{
+    padding-top: 15px;
+}
+
+.step-2 .direct__online:after{
+    bottom: 4px;
+    right: -22px;
+}
+
+.step-3 .popup__chat-invite{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.step-3 .popup__chat-book{
+    display: none;
+}
+
+.step-3 .direct__item{
+    padding: 13px 22px 0 50px;
+}
+
+.step-3 .direct__item-info{
+    padding: 0 27px 15px 41px;
+    margin-left: 0;
+}
+
+.step-3 .direct__item-post{
+    padding-top: 15px;
+}
+
+.step-3 .direct__online:after{
+    bottom: 4px;
+    right: -22px;
+}
+
+.step-3 .contact__instraction{
+    display: none;
+}
+
+.step-3 .contact__button--ok{
+    display: none;
+}
+
+.contact__check{
+    display: none;
+}
+
+.step-3 .contact__check{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 5px;
+}
+
+.contact__title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact__instraction{
+    font-size: 12px;
+    color: #B4B4B4;
+    margin: 9px 18px 7px 26px;
+    padding: 11px;
+    border: 1px solid #C4C4C4;
+    position: relative;
+
+}
+
+.contact__instraction svg{
+    position: absolute;
+    top: 9px;
+    left: -5px;
+}
+
+.contact__item-label{
+    width: 32px;
+    height: 32px;
+    background-color: #F15642;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 5px;
+}
+
+.platform-card__item-invite{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 100px;
+}
+
+.contact__wrp{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20px;
+}
+
+.contact__item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 10px;
+}
+
+.contact__item-select{
+    margin-left: 20px;
+}
+
+.contact__wrp .select-wrapper {
+    width: 245px;
+    height: 32px;
+    position: relative;
+    color: #000;
+    background: transparent;
+    border-radius: 5px;
+    padding-left: 11px;
+}
+    
+.contact__wrp .chat-content__files-select{
+    color: #000;
+    width: 100%;
+    height: 32px;
+    background: transparent;
+    border: 1px solid #C4C4C4;
+    appearance: none;
+    z-index: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-left: 11px;
+    padding-bottom: 0;
+}
+    
+
+.contact__wrp .select-wrapper > select::-ms-expand{
+    display: none;
+}
+
+.contact__wrp .select-arrow {
+    position: absolute;
+    z-index: 90;
+    border: 5px solid transparent;
+    border-bottom: 0;
+    right: 11px;
+}
+
+.contact__wrp .select-arrow:nth-child(2) {
+    top: 12px;
+    border-top-color: #3D3D3D;
+}
+
+.contact__wrp .select-arrow:nth-child(3) {
+    top: 5px;
+    border-top-color: #FFF;
+}
+
+.contact__form-title{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    width: 288px;
+    color: #000;
+    margin-top: 27px;
+}
+
+.contact__button{
+    margin-top: 10px;
+    width: 148px;
+    height: 47px;
+    background-color: #F15642;
+    color: #fff;
+    border-radius: 5px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+
+.step-4 .popup__chat-invite{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.step-4 .popup__chat-book{
+    display: none;
+}
+
+.step-4 .direct__item{
+    padding: 13px 22px 0 50px;
+}
+
+.step-4 .direct__item-info{
+    padding: 0 27px 15px 41px;
+    margin-left: 0;
+}
+
+.step-4 .direct__item-post{
+    padding-top: 15px;
+}
+
+.step-4 .direct__online:after{
+    bottom: 4px;
+    right: -22px;
+}
+
+.step-4 .contact__instraction{
+    display: none;
+}
+
+.step-4 .contact__check{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 5px;
+}
+
+.step-4 .contact__item-label{
+    background-color: #59BC5A;
+}
+
+.step-4 .contact__form-title--wrong{
+    display: none;
+}
+
+.step-4 .contact__button--check{
+    display: none;
+}
+
+.step-4 .contact__button--ok{
+    background-color: #59BC5A;
+    margin-top: 38px;
+}
+
+.step-1 .direct__item{
+    margin-top: 2px;
+    margin-left: -1px;
+}
+
+.step-1 .direct__item-post{
+    display: none;
+}
+
+.step-1 .direct__item-info{
+    margin-left: 13px;
+}
+
+.step-1 .direct__online:after{
+    bottom: 4px;
+    right: 6px;
+}
+
+@media (max-width: 950px){
+    .select-card{
+        bottom: 80px;
+        right: 0px;
+    }
+}
+
+@media (max-width: 857px){
+    .popup-contact .popup__closeX {
+        top: 20px;
+    }
+
+    .popup__meetings-platform{
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+
+    .popup-contact .popup__chat-info{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+    }
+
+    .popup-contact .popup__chat-call{
+        margin: 5px 0;
+    }
+
+    .popup-contact .popup__chat-invite{
+        margin: 0;
+    }
+
+    .popup-contact .direct__item-name{
+        font-size: 14px;
+    }
+
+    .popup-contact .direct__item-post{
+        font-size: 14px;
+    }
+
+    .popup-contact .popup-reguser__form-buttons{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .popup-contact .popup-reguser__form-button{
+        width: 100%;
+    }
+
+    .popup-contact .btn-attach{
+        margin-bottom: 5px;
+    }
+
+    .popup-contact #code{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 668px){
+    .popup-contact .platform-card__item-invite{
+        padding-left: 10px
+    }
+
+    .popup-contact #code{
+        padding-right: 85px;
+        height: auto;
+        min-height: 47px;
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .popup-contact .tabs__caption li{
+        font-size: 14px;
+    }
+
+    .meeting-platform__label{
+        font-size: 10px;
+    }
+
+    .platform__attendee-info{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .platform__clear-attend{
+        margin-right: 0;
+    }
+
+    .platform__attendee-wrp{
+        padding: 5px;
+    }
+
+    .person-cart{
+        top: -175px;
+        right: 0;
+    }
+
+    .meeting-platform__button-send{
+        right: 10px;
+    }
+
+    .meeting-platform__button-copy{
+        right: 40px;
+    }
+}
+
+@media (max-width: 450px){
+    .platform-card__item-invite{
+        display: none;
+    }
+
+    .popup__meetings-platform .tabs__caption{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .popup__meetings-platform .tabs__caption li{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .popup__meetings-platform .tabs__caption li:first-child {
+        border-right: 1px solid #C4C4C4;
+    }
+
+    .popup__meetings-platform .tabs__caption li:nth-child(2) {
+        border-left: 1px solid #C4C4C4;
+    }
+
+    .popup__meetings-platform .tabs__caption li.active{
+        border: none;
+    }
+
+    .popup__meetings-platform .meeting-platform__input{
+        font-size: 12px;
+        padding: 18px 21px;
+    }
+    
+    .popup__meetings-platform .select-styled{
+        font-size: 12px;
+    }
+
+    .popup__meetings-platform .meeting-platform__input--date{
+        padding: 17px 21px;
+    }
+
+    .popup__meetings-platform .meeting-platform__item{
+        width: 100%;
+    }
+
+    .popup__meetings-platform .platform__buttons{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .popup__meetings-platform .platform__button{
+        width: 70%;
+    }
+
+    .popup__meetings-platform .platform__generate{
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 347px){
+    .popup{
+        width: 100%;
+    }
+}
+
+.hidden{
+    display: none;
+}
